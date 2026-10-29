@@ -2,6 +2,8 @@
 
 Eine deutsche Seite, mit der du öffentliche DNS-Resolver aus Europa prüfen kannst.
 
+Direkt im Browser: <https://yusaiku.github.io/dns-tester-eu/>
+
 Das Aussehen stammt vom [DNS-Tester](https://github.com/DarknessShade/DNS-Tester) von darknessShade. Die Texte sind deutsch. Die Vorliste enthält nur Resolver, die am 29. Oktober 2026 geprüft wurden.
 
 ## Was ein Eintrag bedeutet
