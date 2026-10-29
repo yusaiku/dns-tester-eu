@@ -39,7 +39,7 @@ Die Liste siehst du auch, wenn du `index.html` direkt öffnest. Die Prüfung fun
 
 | Resolver | Standort | DoH | DoT |
 | --- | --- | --- | --- |
-| X1 DNS | Deutschland | `https://dns.x1.to/dns-query` | `dns.x1.to` |
+| X1 DNS | Deutschland, zwei Adressen | `https://dns.x1.to/dns-query` | `dns.x1.to` |
 | FDN | Frankreich | `https://ns0.fdn.fr/dns-query` | `ns0.fdn.fr`, `ns1.fdn.fr` |
 | Freifunk München | München und Wien | `https://doh.ffmuc.net/dns-query` | `dot.ffmuc.net` |
 | Digitale Gesellschaft | Basel, Schweiz, nicht EU | `https://dns.digitale-gesellschaft.ch/dns-query` | `dns.digitale-gesellschaft.ch` |
@@ -50,6 +50,8 @@ Die Liste siehst du auch, wenn du `index.html` direkt öffnest. Die Prüfung fun
 | Digitalcourage | deutsches Rechenzentrum | keines | `dns3.digitalcourage.de` |
 
 Adressen und Hinweise stehen im Info-Dialog jedes Eintrags. Die Quellen sind die Seiten der Betreiber.
+
+X1 DNS hat zwei Server hinter demselben Namen: `109.224.228.7` und `89.58.57.209`. Die Prüfung im Browser folgt dem Namen und trifft eine der beiden Adressen.
 
 Nicht aufgenommen wurden Dienste mit Sperrliste, ohne DNSSEC, mit Servern außerhalb der EU oder mit Kontozwang. Dazu gehören unter anderem Quad9, Cloudflare, Google, AdGuard, Mullvad, DNS4EU, Njalla und Nothing to Hide.
 
